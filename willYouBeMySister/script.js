@@ -64,6 +64,8 @@ noButton.addEventListener("click", ()=>{
     }
     // Jump for the first time
     else{
+        // showing angry pikachus
+        pikaGif.setAttribute("src", angryPikachu[Math.floor(Math.random() * angryPikachu.length)]); // Changing gif to angry pikachu
         
         // Generating random coordinates setting values
         const offsetX = Math.floor(Math.random() * 200) - 100;

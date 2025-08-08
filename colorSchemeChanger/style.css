@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+.boxContainer{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transform: transform 0.2s ease;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.box:nth-child(1){background-color: white;}
+.box:nth-child(2){background-color: blue;}
+.box:nth-child(3){background-color: purple;}
+.box:nth-child(4){background-color: aqua;}
+.box:nth-child(5){background-color: red;}

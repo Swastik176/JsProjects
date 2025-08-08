@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+/* Centring the overall content */
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Baloo 2', cursive;
+    background-color: mistyrose;
+}
+
+/*Formating the gif message and buttons*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.pika-gif{
+    width: 450px;
+    height: 350px;
+}
+
+.message{
+    font-size: 1.7rem;
+    margin: 5px;
+}
+
+/*formating the buttons*/
+.btn-container{
+    display: flex;
+    gap: 12px;
+}
+
+.btn-container button{
+    border-radius: 9999px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(249, 249, 249);
+    transition: transform 0.2s ease;
+}
+
+#yes-btn{
+    background-color: #40E9A6;
+    transform-origin: top center;
+}
+
+#no-btn{
+    background-color: #fc3d60;
+    transition: margin-left 0.2s ease; /*to slide no button, when yes button grows*/
+}
+
+.btn-container button:hover{
+    transform: scale(1.1);
+}
+
